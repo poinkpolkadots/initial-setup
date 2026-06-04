@@ -36,7 +36,7 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # GitHub login
-gh auth login
+# gh auth login
 
 # nginx
 sudo apt install nginx
@@ -44,10 +44,10 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 # ubuntu server
-sudo apt install ubuntu-server
-sudo systemctl set-default multi-user.target
-sudo apt purge ubuntu-desktop -y && sudo apt autoremove -y && sudo apt autoclean
-sudo reboot
+# sudo apt install ubuntu-server
+# sudo systemctl set-default multi-user.target
+# sudo apt purge ubuntu-desktop -y && sudo apt autoremove -y && sudo apt autoclean
+# sudo reboot
 
 # need to have setup for docker containers
 # pihole, syncthing, lute, nginx-proxy, dockge
