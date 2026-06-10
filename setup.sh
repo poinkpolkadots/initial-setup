@@ -7,7 +7,7 @@ sudo apt install vim -y
 sudo apt install openssh-server -y
 sudo systemctl enable ssh -y
 sudo systemctl start ssh -y
-ssh-import-id gh:pinkpolkadots -y
+ssh-import-id gh:poinkpolkadots -y
 
 # fan control, need to change the configuration
 sudo apt install mbpfan -y
