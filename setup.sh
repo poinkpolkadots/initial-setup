@@ -12,6 +12,7 @@ ssh-import-id gh:pinkpolkadots
 # fan control, need to change the configuration
 sudo apt install mbpfan
 sudo service mbpfan start
+sudo wget https://github.com/linux-on-mac/mbpfan/raw/refs/heads/master/mbpfan.upstart
 sudo cp mbpfan.upstart /etc/init/mbpfan.conf
 sudo start mbpfan
 
@@ -40,8 +41,8 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 
 # nginx
 sudo apt install nginx
-sudo systemctl start nginx
-sudo systemctl enable nginx
+# sudo systemctl start nginx
+# sudo systemctl enable nginx
 
 # ubuntu server
 # sudo apt install ubuntu-server
